@@ -18,6 +18,16 @@ header {
     text-align: center;
 }
 
+.logo {
+    position: absolute; /* permite posicionar a imagem em relação ao header */
+    top: 20px; 
+    left: 20px; 
+    width: 100px; 
+    height: auto; /* mantem a proporção da imagem */
+}
+
+
+
 nav ul {
     display: flex;
     justify-content: center;
